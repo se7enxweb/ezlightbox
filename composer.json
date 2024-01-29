@@ -1,0 +1,24 @@
+{
+    "name": "se7enxweb/ezlightbox",
+    "description": "eZ Publish Legacy feature addition. Adds support for lightboxes with your website via a stable extension",
+    "type": "ezpublish-legacy-extension",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "eZ Publish dev-team & eZ Community",
+            "homepage": "https://github.com/se7enxweb/ezwebin"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "se7enxweb/ezpublish-legacy-installer": "*"
+    },
+    "suggest": {
+        "se7enxweb/ezwt": "~6.0.0",
+        "se7enxweb/ezstarrating": "~6.0.0",
+        "se7enxweb/ezgmaplocation": "~6.0.0"
+    },
+    "extra": {
+        "ezpublish-legacy-extension-name": "ezlightbox"
+    }
+}
